@@ -1,0 +1,75 @@
+@import '~primevue/resources/themes/saga-blue/theme.css'; 
+@import '~primevue/resources/primevue.min.css'; 
+@import '~primeicons/primeicons.css';
+@import 'primeflex/primeflex.scss';
+
+html {
+    background-color: #f8fafc;
+  }
+  
+
+.p-sidebar-left {
+    top: 5rem !important;
+    height: 80%;
+}
+
+.filters {
+    width: 100%;
+}
+
+.p-menubar {
+    background: #063773;
+}
+
+.p-menubar .p-menuitem > .p-menuitem-content .p-menuitem-link{
+    color: white
+}
+
+.filter-panel .p-panel-header {
+    color: white;
+    background: #084085;
+}
+
+.p-datatable .p-sortable-column-icon {
+    color: white;
+}
+
+.p-panel-icons .p-panel-header-icon {
+    color: white;
+}
+
+.p-menubar {
+    border-width: 0px !important;
+    border-style: none;
+}
+
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.content {
+    margin-top: 5rem;
+}
+
+.p-datatable-thead {
+    background: #084085;
+}
+
+.p-datatable-thead .p-checkbox .p-checkbox-box {
+    display: none;
+    pointer-events: none;
+  }
+
+.p-datatable .p-datatable-thead > tr > th {
+background-color: #084085;
+color: white;
+}
+
+.p-panel-header .p-panel-toggler:hover {
+    color: #084085;
+    background-color: white; /* Cambia este color al que desees */
+}
